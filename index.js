@@ -1,10 +1,10 @@
 
 // pistetään hakukenttä toimimaan myös enter painikkeella
 const input = document.getElementById("etsi");
-input.addEventListener("keyup" , function(event){
+input.addEventListener("keyup" , (event)=>{
     event.preventDefault();
     if (event.keyCode === 13){
-        myFunction()
+        myFunction();
     }
 });
 
@@ -17,7 +17,7 @@ console.log(text);
     fetch(text )             // Käynnistetään haku. Vakiometodi on GET.
         .then(function (vastaus) {        // Sitten kun haku on valmis,
             return vastaus.json();        // muutetaan ladattu tekstimuotoinen JSON JavaScript-olioksi
-        }).then(function (json) {         // Sitten otetaan ladattu data vastaan ja
+        }).then( (json)=> {         // Sitten otetaan ladattu data vastaan ja
         naytaKuva(json);              // kutsutaan naytaKuva-funktiota ja lähetetään ladattu data siihen parametrinä.
     }).catch(function (error) {       // Jos tapahtuu virhe,
         console.log(error);           // kirjoitetaan virhe konsoliin.

@@ -78,6 +78,8 @@ button:hover {
     min-width: 100%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background: rgba(45,45,45,0.60);
+    padding-top: 3ex;
+    padding-bottom: 3ex;
 }
 #kotelo:hover{
     align-items: center;
@@ -89,6 +91,8 @@ button:hover {
     min-width: 100%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background: rgba(45,45,45,0.90);
+    padding-top: 5ex;
+    padding-bottom: 5ex;
 }
 
 .picture{
