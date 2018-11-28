@@ -1,0 +1,13 @@
+   padding-bottom: 2ex;
+order:0;
+    align-self: flex-start;
+    position: absolute;
+    flex: auto;
+}
+
+max-width: 50ex;
+    padding-top: 10ex;
+    order: 2;
+    align-self: flex-end;
+    flex: auto;
+    positon: relative;
